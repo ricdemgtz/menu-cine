@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu cine</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+    <h1>¡Bienvenidos al cine!</h1>
+    <h3>---Menú---</h3>
+    <p>Queremos hacer de tu visita, una experiencia inolvidable. Para eso, ingresa tu edad y selecciona el género que mas te guste,para asi recompendarte una película ideal</p>
+    <p>Edad: <input id="edadUsusario" type="number"></p>
+    <button onclick="recomendar('romance')">Romance</button>
+    <button onclick="recomendar('comedia')">Comedia</button>
+    <button onclick="recomendar('terror')">Terror</button>
+    <button onclick="recomendar('suspenso')">Suspenso</button>
+
+    <h3>Nuestra recomendación:</h3>
+    <h2 id="textoRecomendacion"></h2>
+</body>
+</html>
